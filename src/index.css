@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
+  /* Ejemplo de color personalizado:
+  --color-brand: #a855f7;
+  */
+}
+
+:root {
+  font-family: var(--font-sans);
+}
+
+body {
+  margin: 0;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle farthest-corner at 50% 50%,
+    hsla(0, 0%, 100%, 0) 50%,
+    rgba(0, 0, 0, 0.4)
+  );
+  pointer-events: none;
+}
