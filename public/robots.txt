@@ -6,7 +6,7 @@ Disallow: /assets/*.map
 Disallow: /*.json
 
 # Sitemap
-Sitemap: https://frosted-glass-ui.vercel.app/sitemap.xml
+Sitemap: https://frosted-glass-52f96h4hd-alphisols-projects.vercel.app/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
