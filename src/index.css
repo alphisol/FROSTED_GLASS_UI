@@ -2,9 +2,6 @@
 
 @theme {
   --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Inter", sans-serif;
-  /* Ejemplo de color personalizado:
-  --color-brand: #a855f7;
-  */
 }
 
 :root {
