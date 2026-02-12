@@ -1,0 +1,15 @@
+# robots.txt para Frosted Glass UI
+
+# Permitir acceso a todos los crawlers
+User-agent: *
+Allow: /
+
+# Bloquear archivos innecesarios para SEO
+Disallow: /assets/*.map
+Disallow: /*.json
+
+# Sitemap (opcional, si lo agregas después)
+# Sitemap: https://tudominio.com/sitemap.xml
+
+# Crawl-delay (opcional, previene sobrecarga)
+Crawl-delay: 1
